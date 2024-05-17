@@ -1,16 +1,20 @@
 // components/FeaturedCard.js
 "use client";
-
+import { useRef } from "react";
 import Image from "next/image";
-import React from "react";
+// import cat from "../assets/cat.jpg";
 
-export default function Card(props) {
+const Card=(props)=> {
+  
+  const audioRef =useRef(null);
+  
   const handleClick = () => {
-    console.log("Aqui iria el audio");
+    audioRef.current.play(); 
   };
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-4 w-max" onClick={handleClick}>
+        <audio ref={audioRef} src="/random-mp3.mp3"></audio>
       <Image
         src={props.imageUrl}
         alt="Placeholder"
@@ -23,3 +27,7 @@ export default function Card(props) {
     </div>
   );
 }
+
+export default Card;
+
+
