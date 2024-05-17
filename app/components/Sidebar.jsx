@@ -1,24 +1,51 @@
 // components/Sidebar.js
+import ButtonSidebar from "./ButtomSideBar";
+
+const SidebarElements = [
+  {
+    id: 1,
+    image: "/assets/cat.jpg",
+    text: "Botoncito",
+    href: "/",
+  },
+  {
+    id: 2,
+    image: "/icons/home.svg",
+    text: "Botoncito",
+    href: "/",
+  },
+  {
+    id: 3,
+    image: "/icons/home.svg",
+    text: "Botoncito",
+    href: "/",
+  },
+  {
+    id: 4,
+    image: "/icons/home.svg",
+    text: "Botoncito",
+    href: "/",
+  },
+  {
+    id: 5,
+    image: "/icons/home.svg",
+    text: "Botoncito",
+    href: "/",
+  },
+  {
+    id: 6,
+    image: "/icons/home.svg",
+    text: "Botoncito",
+    href: "/",
+  },
+];
 
 const Sidebar = () => {
   return (
-    <div className="h-screen w-64 bg-gray-800 text-white fixed left-0">
-      <div className="py-4 px-6">
-        <h1 className="text-2xl font-semibold">My Sidebar</h1>
-      </div>
-      <nav className="mt-6">
-        <ul>
-          <li className="px-4 py-2 hover:bg-gray-700">
-            <a href="/archivo1.txt" target="_blank" rel="noopener noreferrer">Archivo 1</a>
-          </li>
-          <li className="px-4 py-2 hover:bg-gray-700">
-            <a href="/archivo2.txt" target="_blank" rel="noopener noreferrer">Archivo 2</a>
-          </li>
-          <li className="px-4 py-2 hover:bg-gray-700">
-            <a href="/archivo3.txt" target="_blank" rel="noopener noreferrer">Archivo 3</a>
-          </li>
-        </ul>
-      </nav>
+    <div className="sidebar flex flex-col items-center">
+      {SidebarElements.map((elemento, index) => (
+        <ButtonSidebar key={index} elemento={elemento} />
+      ))}
     </div>
   );
 }

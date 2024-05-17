@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Sidebar from "./components/sidebar";
-import Navbar from "./components/navbar";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 import Footer from "./components/footer";
 
@@ -11,18 +11,16 @@ import Card from "./components/Cards/Card";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-color-8">
-      <Navbar />
-      
-      <div className="flex min-h-screen flex-col items-center justify-between ">
-        <div className="flex">
+    <main className="flex min-h-screen flex-row items-center bg-color-8 flex-auto">
+      <div className="flex">
+        <Navbar />
+      </div>
+      <div className="flex mt-20">
+        <div>
           <Sidebar />
         </div>
-        <div className="flex "> {/* Add margin top to create space */}
-          <Content />
-        </div>
+        <Content />
       </div>
-
       <Footer />
     </main>
   );
