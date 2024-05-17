@@ -1,15 +1,17 @@
 import Image from "next/image";
-import navbar from "./components/navbar";
-import Sidebar from "./components/sidebar";
+import Navbar from "./components/Navbar";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
+import Card from "./components/Cards/Card";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-  
+      <Navbar/>
       <Sidebar/>
-        <h1>hello world</h1>
-
-
+      <Content/>
+      <Footer/>
     </main>
   );
 }
