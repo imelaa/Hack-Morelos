@@ -1,15 +1,23 @@
 import Navbar from "../../components/Navbar";
-import Content from "../../components/Content";
-import Footer from "../../components/Footer";
+import ContentA1 from "./ContentA1";
 import Sidebar from "../../components/Sidebar";
 
-export default function Home() {
-    return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <Navbar />
-        <Sidebar/>
-      </main>
-    );
-  }
-  
+import Image from "next/image";
 
+
+export default function Home() {
+  return (
+
+    <main className="flex min-h-screen flex-row items-center bg-color-8 flex-auto">
+      <div className="flex">
+        <Navbar />
+      </div>
+      <div className="flex mt-20">
+        <div>
+          <Sidebar />
+        </div>
+        <ContentA1 />
+      </div>
+    </main>
+  );
+}

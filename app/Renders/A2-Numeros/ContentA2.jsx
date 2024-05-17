@@ -1,10 +1,10 @@
-import Card from "./Cards/Card";
+import Card from "../../components/Cards/Card";
 
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
         textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoIngles: "Numeros",
     },
     {
         imageUrl: "/images/placeholder.jpg",
