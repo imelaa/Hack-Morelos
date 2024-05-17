@@ -1,10 +1,13 @@
 import React from 'react';
 import ButtonSidebar from "./ButtomSideBar";
+import cat from "../assets/cat.jpg";
+
+
 
 const SidebarElements = [
   {
     id: 1,
-    image: "/assets/cat.jpg",
+    image: cat,
     text: "Social",
     href: "../../Renders/A6-Social",
   },
@@ -41,9 +44,10 @@ const SidebarElements = [
   {
     id: 6,
     image: "/icons/home.svg",
-    text: "Preposiciones",
-    href: "../../Renders/A5-Preposiciones",
+    text: "Salud",
+    href: "../../Renders/A5-Salud",
   },
+
 ];
 
 const Sidebar = () => {
