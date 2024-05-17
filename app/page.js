@@ -11,7 +11,7 @@ import Card from "./components/Cards/Card";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-color-8">
+    <main className="flex min-h-screen flex-col items-center justify-between mt-12 bg-color-8">
       <Navbar />
       
       <div className="flex min-h-screen flex-col items-center justify-between ">
