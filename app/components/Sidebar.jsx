@@ -1,49 +1,56 @@
 import React from 'react';
 import ButtonSidebar from "./ButtomSideBar";
-import cat from "../assets/cat.jpg";
+
+import social from "../assets/social.svg";
+import trabajo from "../assets/trabajo.svg";
+import comida from "../assets/comida.svg";
+import escuela from "../assets/escuela.svg";
+import numeros from "../assets/numeros.svg";
+import direccion from "../assets/direccion.svg";
+import salud from "../assets/salud.svg";
 
 
 
 const SidebarElements = [
   {
     id: 1,
-    image: cat,
+    image: social,
     text: "Social",
     href: "../../Renders/A6-Social",
   },
   {
     id: 2,
-    image: "/icons/home.svg",
+    image: trabajo,
     text: "Trabajo",
     href: "../../Renders/A7-Trabajo",
   },
   {
     id: 3,
-    image: "/icons/home.svg",
+    image: comida,
     text: "Comida",
     href: "../../Renders/A1-Comida",
   },
   {
     id: 4,
-    image: "/icons/home.svg",
+    image: escuela,
     text: "Escuela",
     href: "../../Renders/A4-Escuela",
   },
   {
     id: 5,
-    image: "/icons/home.svg",
+    image: numeros,
     text: "Numeros",
     href: "../../Renders/A2-Numeros",
   },
   {
     id: 6,
-    image: "/icons/home.svg",
+    image: direccion,
     text: "Direccion",
     href: "../../Renders/A3-Direccion",
   },
   {
     id: 6,
-    image: "/icons/home.svg",
+    image: salud,
     text: "Salud",
     href: "../../Renders/A5-Salud",
   },
