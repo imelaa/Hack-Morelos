@@ -1,26 +1,27 @@
 import Card from "../../components/Cards/Card";
+import sick from "../../assets/sick.gif";
+import ambulance from "../../assets/ambulance.gif";
+import doctor from "../../assets/doctor.gif";
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
+        imageUrl: sick,
         textoDialecto: "Ninemi tontepa",
         textoIngles: "Im sick",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "tlen tech catah caualli?",
-        textoIngles: "How much does the medicine costs?",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
+        imageUrl: ambulance,
         textoDialecto: "huelih auakitekiya tlanextilol",
         textoIngles: "Call an ambulance",
     },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlalpanawak, huilapanawak, miquizpanawak, huetsipanawak, tonaltsiawak, tonalmeh, tepeilhuitl",
-        textoIngles: "monday, tuesday, wednesday, thursday, friday, saturday, sunday",
+
+       {
+        imageUrl: doctor,
+        textoDialecto: "tíicitl",
+        textoIngles: "Doctor",
     },
+
+
 ];
 
 const Content = () => {

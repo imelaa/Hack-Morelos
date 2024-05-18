@@ -1,20 +1,30 @@
 import Card from "../../components/Cards/Card";
+import enter from "../../assets/enter.gif";
+import teacher from "../../assets/teacher.gif";
+import student from "../../assets/student.gif";
+import morning from "../../assets/morning.gif";
+
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Niquin amo quenman in calidades tlen nochi nanacatl?",
-        textoIngles: "How are my sons grades?",
+        imageUrl:enter,
+        textoDialecto: "Tlamachtihquetl; ¿hueliz nipano",
+        textoIngles: "Teacher; can I enter/exit?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Nimitznotzotza in tlacatl xochitlalpan in tlaescuelahqueh",
-        textoIngles: "I want to matriculate my son in this school",
+        imageUrl: morning,
+        textoDialecto: "Piyali tlamachtihquetl",
+        textoIngles: "Hello, good morning teacher",
+    },
+     {
+        imageUrl: teacher,
+        textoDialecto: "Tlamachtihquetl",
+        textoIngles: "Teacher",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Tlazohti ihcuac quimatic?",
-        textoIngles: "What do I need to buy?",
+        imageUrl: student,
+        textoDialecto: "Momachtihquetl",
+        textoIngles: "Student",
     },
 ];
 
