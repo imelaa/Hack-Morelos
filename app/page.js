@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <Content />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

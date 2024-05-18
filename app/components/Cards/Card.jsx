@@ -1,44 +1,27 @@
 // components/FeaturedCard.js
 "use client";
-import { useRef } from "react";
-import Image from "next/image";
-import { useState } from "react";
-// import cat from "../assets/cat.jpg";
 
-const Card = (props) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+import Image from "next/image";
+import React from "react";
+
+
 
 export default function Card(props) {
   const handleClick = () => {
-    if (isPlaying) {
-      audioRef.current.pause(); // Detiene la reproducción del audio
-    } else {
-      audioRef.current.play(); // Inicia la reproducción del audio
-    }
-    setIsPlaying(!isPlaying); // Cambia el estado de reproducción
+    console.log("Aqui iria el audio");
   };
 
   return (
-    <div
-      className={`bg-white shadow-lg rounded-lg p-4 w-max ${
-        isPlaying ? "bg-blue-100" : ""
-      }`}
-      onClick={handleClick}
-      style={{ cursor: "pointer" }}
-    >
-      <audio ref={audioRef} src="/random-mp3.mp3"></audio>
+    <div className="bg-white shadow-lg rounded-lg p-4 w-max" onClick={handleClick}>
       <Image
         src={props.imageUrl}
         alt="Placeholder"
         width={300}
         height={200}
         className="rounded-lg w-40 h-40"
-
       />
       <p className="text-color-6">{props.textoDialecto}</p>
       <p className="text-color-6">{props.textoIngles}</p>
     </div>
   );
 }
-export default Card;
