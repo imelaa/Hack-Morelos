@@ -1,25 +1,41 @@
 import Card from "../../components/Cards/Card";
+import left from "../../assets/left.gif";
+import right from "../../assets/right.gif";
+import market from "../../assets/market.gif";
+import school from "../../assets/school.gif";
+import where from "../../assets/where.gif";
+import mapa from "../../assets/map.gif";
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlahtoa in topan, tlahtoa in huēyi",
-        textoIngles: "Go right/ Go left",
+        imageUrl: where,
+        textoDialecto: "¿Canin tiitztoc?",
+        textoIngles: "Where are you?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlalticpac 1 ka 2 keman 3 itech",
-        textoIngles: "go/stop",
+        imageUrl: left,
+        textoDialecto: " opochtli",
+        textoIngles: "left",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlachializtli, telpochcalli, teoxochi",
-        textoIngles: "Market / school/ church",
+        imageUrl: right,
+        textoDialecto: "yeccapan",
+        textoIngles: "right",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
+        imageUrl: market,
+        textoDialecto: "Tlachializtli",
+        textoIngles: "Market",
+    },
+     {
+        imageUrl: school,
+        textoDialecto: "Telpochcalli",
+        textoIngles: "School",
+    },
+    {
+        imageUrl: mapa,
         textoDialecto: "¿Tlahtoa nelli in Cuernavaca?",
-        textoIngles: "how do i get to Cuernavaca?",
+        textoIngles: "How do i get to Cuernavaca?",
     },
 ];
 
