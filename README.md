@@ -1,7 +1,15 @@
 ## Proyecto: Culturas Conectadas
 Una suite de aprendizaje para ayudar a inmigrantes de grupos etnicos en una situación vulnerable.
 
-Lenguajes Unidos es una suite de aprendizaje desarrollada para ayudar a los inmigrantes que son parte de algún grupo etnico, los cuales son vulnerables a la hora de llegar al pais extranjero ya que muchos de ellos no saben español ni ingles, por lo que comunicarse se vuelve un reto.
+Culturas Conectadas es una plataforma de aprendizaje desarrollada para ayudar a los inmigrantes que son parte de algún grupo etnico, los cuales son vulnerables a la hora de llegar al pais extranjero ya que muchos de ellos no saben español ni ingles, por lo que comunicarse se vuelve un reto.
+
+Datos del Instituto Nacional de Estadistia y Geografia (INEGI), en 2015, en la CDMX habitaban 8 millones 918 mil 653 personas, de las cuales colo 8.8% se describen como persona que habla alguna lengua indígena, esto quiere decir que más de 500 mil personas se encuentran dentro de esta población. Las de mayor presencia son el náhuatl, cuyos hablantes representan casi el 30% del total por lo que en primera instancia queremos centrarnos en este grupo de personas y es que tan solo en 2021, la población mexicana que emigró a Esatdos Unidos fue de 11.7 millones. 
+
+Cuturas Conectadas nacio de la idea de ayudar a las personas migrantes a no sentirse fuera de lugar y puedan ir aprendiendo un lenguaje sin tener que pasar por un tercero. Además de que la aplicación va a ir obteniendo información con la ayuda de la comunidad, con ella se va a retroalimentar. Además de ser intuitiva y estar formada con elementos graficos para las personas que no saben leer, ni escribir.
+
+
+
+
 
 ## Features
 - Interfaz intuitiva.
@@ -75,3 +83,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
