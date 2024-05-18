@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <a href="../" className="text-xl font-bold">Logo-inicio</a>
         <a href="../" className="text-xl font-bold">Lenguas </a>
-        <a href="./../Renders/comunidad" className="text-xl font-bold">Comunidad</a>
+        <a href="../Renders/comunidad" className="text-xl font-bold">Comunidad</a>
       </div>
     </div>
   );

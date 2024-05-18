@@ -5,12 +5,22 @@ import Image from "next/image";
 import React from "react";
 
 export default function Card(props) {
-  const handleClick = () => {
-    console.log("Aqui iria el audio");
+  const handleClick = async () => {
+    console.log("hola bola");
+    try {
+      const audio = new Audio("../../../../app/assets/audios/cuak.mp3"); // Ruta correcta al archivo de audio
+      await audio.play(); // await para manejar la promesa correctamente
+    } catch (err) {
+      console.log(err);
+    }
+    console.log("Adios bola");
   };
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-4 w-max" onClick={handleClick}>
+    <div
+      className="bg-white shadow-lg rounded-lg p-4 w-max"
+      onClick={handleClick}
+    >
       <Image
         src={props.imageUrl}
         alt="Placeholder"
