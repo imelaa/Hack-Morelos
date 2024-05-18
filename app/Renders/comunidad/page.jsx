@@ -1,14 +1,14 @@
+"use client";
 import Navbar from "../../components/Navbar";
-import Comunidad from "./Comunidad";
-
+import MultiStepForm from "./Comunidad";
+import Navbar from "../../components/Navbar";
 export default function Home() {
   return (
-
-    <main className="flex min-h-screen flex-row items-center bg-color-8 flex-auto">
-        <div className="flex">
-            <Comunidad/>
-            <Navbar />
-        </div>
+    <main className="flex w-screen min-h-screen flex-row  bg-color-8 flex-auto">
+      <div className="flex flex-grow">
+        <Navbar />
+        <MultiStepForm />
+      </div>
     </main>
   );
 }

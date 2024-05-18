@@ -1,35 +1,29 @@
 import Card from "../../components/Cards/Card";
+import hi from "../../assets/hi.gif";
+import nombre from "../../assets/nombre.gif";
+import qnombre from "../../assets/qnombre.gif";
+import welcome from "../../assets/welcome.gif";
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Hola como estas",
+        imageUrl: hi,
+        textoDialecto: "¿Yei tlahtoa?",
         textoIngles: "Hi, how are you?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        imageUrl: nombre,
+        textoDialecto: "In Omeo …",
+        textoIngles: "My name is …",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        imageUrl: qnombre,
+        textoDialecto: "Piyalli, ¿queniuhqui motocah?",
+        textoIngles: "Hello, what's your name?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        imageUrl: welcome,
+        textoDialecto: "¡Tlazohcamati, tlakati, tlamantli!",
+        textoIngles: "Please, thanks, you're welcome",
     },
 ];
 

@@ -1,10 +1,10 @@
+
 import Image from "next/image";
 
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 
 import Footer from "./components/footer";
-
 
 import Content from "./components/Content";
 
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex">
         <Navbar />
       </div>
-      <div className="flex mt-20">
+      <div className="flex mt-20 item-center">
         <div>
           <Sidebar />
         </div>
