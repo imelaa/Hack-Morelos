@@ -9,6 +9,7 @@ const Card = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
 
+export default function Card(props) {
   const handleClick = () => {
     if (isPlaying) {
       audioRef.current.pause(); // Detiene la reproducción del audio
@@ -39,6 +40,5 @@ const Card = (props) => {
       <p className="text-color-6">{props.textoIngles}</p>
     </div>
   );
-};
-
+}
 export default Card;
