@@ -1,26 +1,32 @@
 // components/FeaturedCard.js
 "use client";
-
+import { useRef } from "react";
 import Image from "next/image";
-import React from "react";
+import { useState } from "react";
+// import cat from "../assets/cat.jpg";
 
-export default function Card(props) {
-  const handleClick = async () => {
-    console.log("hola bola");
-    try {
-      const audio = new Audio("../../../../app/assets/audios/cuak.mp3"); // Ruta correcta al archivo de audio
-      await audio.play(); // await para manejar la promesa correctamente
-    } catch (err) {
-      console.log(err);
+const Card = (props) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef(null);
+
+  const handleClick = () => {
+    if (isPlaying) {
+      audioRef.current.pause(); // Detiene la reproducción del audio
+    } else {
+      audioRef.current.play(); // Inicia la reproducción del audio
     }
-    console.log("Adios bola");
+    setIsPlaying(!isPlaying); // Cambia el estado de reproducción
   };
 
   return (
     <div
-      className="bg-white shadow-lg rounded-lg p-4 w-max"
+      className={`bg-white shadow-lg rounded-lg p-4 w-max ${
+        isPlaying ? "bg-blue-100" : ""
+      }`}
       onClick={handleClick}
+      style={{ cursor: "pointer" }}
     >
+      <audio ref={audioRef} src="/random-mp3.mp3"></audio>
       <Image
         src={props.imageUrl}
         alt="Placeholder"
@@ -32,4 +38,6 @@ export default function Card(props) {
       <p className="text-color-6">{props.textoIngles}</p>
     </div>
   );
-}
+};
+
+export default Card;

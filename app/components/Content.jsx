@@ -1,5 +1,8 @@
 import Card from "./Cards/Card";
 
+// import audio1 from "../assets/cat.jpg";
+// import audio2 from "../assets/cat.jpg";
+
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
