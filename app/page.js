@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex">
         <Navbar />
       </div>
-      <div className="flex mt-20">
+      <div className="flex mt-20 item-center">
         <div>
           <Sidebar />
         </div>

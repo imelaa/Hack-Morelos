@@ -1,24 +1,23 @@
 import Card from "../../components/Cards/Card";
+import contrato from "../../assets/contrato.gif";
+import pago from "../../assets/pago.gif";
+import horaEntrada from "../../assets/hora.gif";
+
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Totla nixtlakatlakamej?",
-        textoIngles: "Who Will be my boss?",
+        imageUrl: contrato,
+        textoDialecto: "¿Camo xitechmacaqui in on tetzcalteca?",
+        textoIngles: "Are you hiring at the moment?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
+        imageUrl: pago,
         textoDialecto: "¿Tla notzontli niempa?",
         textoIngles: "How much Will I win?",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Amotl nocuauhtic",
-        textoIngles: "How many hours do I have to work?",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Mitzin noyolia oquichtin tlen in tlaxcala?",
+        imageUrl: horaEntrada,
+        textoDialecto: "¿tica c quicah in yancuican?",
         textoIngles: "What's my entry hour?",
     },
 ];

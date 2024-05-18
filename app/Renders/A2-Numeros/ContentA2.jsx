@@ -1,25 +1,66 @@
 import Card from "../../components/Cards/Card";
+import uno from "../../assets/uno.gif";
+import dos from "../../assets/dos.gif";
+import tres from "../../assets/tres.gif";
+import cuatro from "../../assets/cuatro.gif";
+import cinco from "../../assets/cinco.gif";
+import seis from "../../assets/seis.gif";
+import siete from "../../assets/siete.gif";
+import ocho from "../../assets/ocho.gif";
+import nueve from "../../assets/nueve.gif";
+import cero from "../../assets/cero.gif";
+
 
 const elementos1 = [
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "tēcpatl, ōme, ūnui, nahui, mācuīlti, chicuītl, chicōme, chicuepīlli, chicuicuīl, mātlahtli",
-        textoIngles: "one, two, three, four, five, six, seven, eight, nine, ten",
+        imageUrl: uno,
+        textoDialecto: "Ce",
+        textoIngles: "One",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlalticpac 1 ka 2 keman 3 itech",
-        textoIngles: "One plus two equals three",
+        imageUrl: dos,
+        textoDialecto: "ōme",
+        textoIngles: "Two",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Ñakatl kaxkai apan ati",
-        textoIngles: "four minus three equals one",
+        imageUrl: tres,
+        textoDialecto: "Eyi",
+        textoIngles: "Three",
     },
     {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "temach ka miquizquej in xiquipilli",
-        textoIngles: "two times three equals six",
+        imageUrl: cuatro,
+        textoDialecto: "nahui ",
+        textoIngles: "Four",
+    },
+    {
+        imageUrl: cinco,
+        textoDialecto: "Macuilli",
+        textoIngles: "Five",
+    },
+    {
+        imageUrl: seis,
+        textoDialecto: "Chicuace",
+        textoIngles: "Six",
+    },
+    {
+        imageUrl: siete,
+        textoDialecto: "Chicome",
+        textoIngles: "Seven",
+    },
+    {
+        imageUrl: ocho,
+        textoDialecto: "Chicueyi",
+        textoIngles: "Eight",
+    },
+    {
+        imageUrl: nueve,
+        textoDialecto: "Chiucnahui",
+        textoIngles: "Nueve",
+    },
+    {
+        imageUrl: cero,
+        textoDialecto: " Yonce",
+        textoIngles: "zero",
     },
 ];
 
