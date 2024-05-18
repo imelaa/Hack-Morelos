@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import ContentA4 from "../../components/Content";
+import ContentA4 from "./ContentA4";
 import Sidebar from "../../components/Sidebar";
 
 import Image from "next/image";
