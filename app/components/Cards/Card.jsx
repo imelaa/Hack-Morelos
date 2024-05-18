@@ -4,6 +4,8 @@
 import Image from "next/image";
 import React from "react";
 
+
+
 export default function Card(props) {
   const handleClick = () => {
     console.log("Aqui iria el audio");
