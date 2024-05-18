@@ -12,7 +12,7 @@ const ButtonSidebar = ({ elemento }) => {
         alt="Button Image"
         width={70}
         height={70}
-        className="w-40 h-40 flex flex-col items-center"
+        className="w-40 h-40 flex flex-col items-center "
       />
       <span>{elemento.text}</span>
     </a>

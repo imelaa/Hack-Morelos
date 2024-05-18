@@ -8,7 +8,6 @@ import cuadro3 from "../assets/cuadro4.jpg";
 import logo from "../assets/logo.jpg";
 import Translate from "./Trans/Translate";
 
-
 const elementos1 = [
     {
         imageUrl: logo,

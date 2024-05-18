@@ -14,6 +14,7 @@ const Navbar = () => {
         <div className="flex-shrink-0">
           <a href="./../Renders/comunidad" className="text-xl font-bold bg-customGreentext-white py-2 px-2 rounded-3xl w-80 m-2 h-70 mx-2 transition-transform duration-300 transform hover:scale-110">Comunidad</a>
         </div>
+
       </div>
     </div>
   );

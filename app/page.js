@@ -1,10 +1,10 @@
+
 import Image from "next/image";
 
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 
 import Footer from "./components/footer";
-
 
 import Content from "./components/Content";
 
