@@ -9,21 +9,25 @@ const elementos1 = [
         imageUrl: hi,
         textoDialecto: "¿Yei tlahtoa?",
         textoIngles: "Hi, how are you?",
+        audio: "/howareyou.mp3"
     },
     {
         imageUrl: nombre,
         textoDialecto: "In Omeo …",
         textoIngles: "My name is …",
+        audio: "/mynameis.mp3"
     },
     {
         imageUrl: qnombre,
         textoDialecto: "Piyalli, ¿queniuhqui motocah?",
         textoIngles: "Hello, what's your name?",
+        audio: "/whatsyourname.mp3"
     },
     {
         imageUrl: welcome,
         textoDialecto: "¡Tlazohcamati, tlakati, tlamantli!",
         textoIngles: "Please, thanks, you're welcome",
+        audio: "/pleasethankswelcome.mp3"
     },
 ];
 

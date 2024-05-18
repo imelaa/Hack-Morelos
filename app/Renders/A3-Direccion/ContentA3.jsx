@@ -11,31 +11,37 @@ const elementos1 = [
         imageUrl: where,
         textoDialecto: "¿Canin tiitztoc?",
         textoIngles: "Where are you?",
+        audio: "/go.mp3"
     },
     {
         imageUrl: left,
         textoDialecto: " opochtli",
         textoIngles: "left",
+        audio: "/goleft.mp3"
     },
     {
         imageUrl: right,
         textoDialecto: "yeccapan",
         textoIngles: "right",
+        audio: "/goright.mp3"
     },
     {
         imageUrl: market,
         textoDialecto: "Tlachializtli",
         textoIngles: "Market",
+        audio: "/market.mp3"
     },
      {
         imageUrl: school,
         textoDialecto: "Telpochcalli",
         textoIngles: "School",
+        audio: "/school.mp3"
     },
     {
         imageUrl: mapa,
         textoDialecto: "¿Tlahtoa nelli in Cuernavaca?",
         textoIngles: "How do i get to Cuernavaca?",
+        audio: "/howicanget.mp3"
     },
 ];
 

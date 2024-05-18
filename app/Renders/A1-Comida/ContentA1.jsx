@@ -9,20 +9,24 @@ const elementos1 = [
         imageUrl: Hungry,
         textoDialecto: "Ni nemiyah Ayac, nimitzquia",
         textoIngles: "I'm hungry",
+        audio: "/imhungry.mp3"
     },
     {
         imageUrl: DontLike,
         textoDialecto: "Tlalticpac no izqui",
         textoIngles: "I don´t like this",
+        audio: "/idontlikethis.mp3"
     },
     {
         imageUrl: Hamburgesa,
         textoDialecto: "i-kwiwan ton-kwahpiloa",
         textoIngles: "Quiero una hamburguesa",
+        audio: "/haburguesa.mp3"
     }, {
         imageUrl: Tarjeta,
         textoDialecto: "¿Tla ximopan in tlatzotl?",
         textoIngles: "Can I pay by card? ",
+        audio: "/card.mp3"
     },
 ];
 
