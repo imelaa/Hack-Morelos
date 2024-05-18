@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import Sidebar from "../../components/Sidebar";
 
 import Image from "next/image";
-import ImageUploader from "../../components/ImageUploader";
+import ImageUploader from "./ImageUploader";
 
 
 export default function Home() {
