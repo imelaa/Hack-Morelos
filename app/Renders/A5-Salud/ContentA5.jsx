@@ -3,23 +3,23 @@ import Card from "../../components/Cards/Card";
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Yei tlahtoa?",
-        textoIngles: "Hi, how are you?",
+        textoDialecto: "Ninemi tontepa",
+        textoIngles: "Im sick",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "In Omeo …",
-        textoIngles: "My name is …",
+        textoDialecto: "tlen tech catah caualli?",
+        textoIngles: "How much does the medicine costs?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Inic tlen tlen huehuetlatolli?",
-        textoIngles: "What's your name?",
+        textoDialecto: "huelih auakitekiya tlanextilol",
+        textoIngles: "Call an ambulance",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¡Tlazohcamati, tlakati, tlamantli!",
-        textoIngles: "Please, thanks, you're welcome",
+        textoDialecto: "Tlalpanawak, huilapanawak, miquizpanawak, huetsipanawak, tonaltsiawak, tonalmeh, tepeilhuitl",
+        textoIngles: "monday, tuesday, wednesday, thursday, friday, saturday, sunday",
     },
 ];
 

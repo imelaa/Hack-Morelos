@@ -3,23 +3,18 @@ import Card from "../../components/Cards/Card";
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Yei tlahtoa?",
-        textoIngles: "Hi, how are you?",
+        textoDialecto: "¿Niquin amo quenman in calidades tlen nochi nanacatl?",
+        textoIngles: "How are my sons grades?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "In Omeo …",
-        textoIngles: "My name is …",
+        textoDialecto: "Nimitznotzotza in tlacatl xochitlalpan in tlaescuelahqueh",
+        textoIngles: "I want to matriculate my son in this school",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Inic tlen tlen huehuetlatolli?",
-        textoIngles: "What's your name?",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¡Tlazohcamati, tlakati, tlamantli!",
-        textoIngles: "Please, thanks, you're welcome",
+        textoDialecto: "¿Tlazohti ihcuac quimatic?",
+        textoIngles: "What do I need to buy?",
     },
 ];
 
