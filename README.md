@@ -1,4 +1,4 @@
-## Proyecto: Lenguajes Unidos
+## Proyecto: Culturas Conectadas
 Una suite de aprendizaje para ayudar a inmigrantes de grupos etnicos en una situación vulnerable.
 
 Lenguajes Unidos es una suite de aprendizaje desarrollada para ayudar a los inmigrantes que son parte de algún grupo etnico, los cuales son vulnerables a la hora de llegar al pais extranjero ya que muchos de ellos no saben español ni ingles, por lo que comunicarse se vuelve un reto.
