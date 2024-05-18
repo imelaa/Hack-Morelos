@@ -3,33 +3,23 @@ import Card from "../../components/Cards/Card";
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "Numeros",
+        textoDialecto: "tēcpatl, ōme, ūnui, nahui, mācuīlti, chicuītl, chicōme, chicuepīlli, chicuicuīl, mātlahtli",
+        textoIngles: "one, two, three, four, five, six, seven, eight, nine, ten",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "Tlalticpac 1 ka 2 keman 3 itech",
+        textoIngles: "One plus two equals three",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "Ñakatl kaxkai apan ati",
+        textoIngles: "four minus three equals one",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "temach ka miquizquej in xiquipilli",
+        textoIngles: "two times three equals six",
     },
 ];
 

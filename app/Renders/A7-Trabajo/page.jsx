@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import Content from "../../components/Content";
+import ContentA7 from "../../components/Content";
 import Sidebar from "../../components/Sidebar";
 
 import Image from "next/image";
@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <Sidebar />
         </div>
-        <Content />
+        <ContentA7 />
       </div>
     </main>
   );

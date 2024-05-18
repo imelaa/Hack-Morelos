@@ -3,23 +3,23 @@ import Card from "../../components/Cards/Card";
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Tlazoa izqui?",
-        textoIngles: "What's this?",
+        textoDialecto: "Tlahtoa in topan, tlahtoa in huēyi",
+        textoIngles: "Go right/ Go left",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Ni nemiyah Ayac, nimitzquia",
-        textoIngles: "I'm hungry",
+        textoDialecto: "Tlalticpac 1 ka 2 keman 3 itech",
+        textoIngles: "go/stop",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Tlalticpac no izqui",
-        textoIngles: "I don´t like this",
+        textoDialecto: "Tlachializtli, telpochcalli, teoxochi",
+        textoIngles: "Market / school/ church",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "¿Niquin ticmatihtoca in tonaltieh?",
-        textoIngles: "Can I get more of this?",
+        textoDialecto: "¿Tlahtoa nelli in Cuernavaca?",
+        textoIngles: "how do i get to Cuernavaca?",
     },
 ];
 
