@@ -1,35 +1,25 @@
-import Card from "./Cards/Card";
+import Card from "../../components/Cards/Card";
 
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¿Totla nixtlakatlakamej?",
+        textoIngles: "Who Will be my boss?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¿Tla notzontli niempa?",
+        textoIngles: "How much Will I win?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "Amotl nocuauhtic",
+        textoIngles: "How many hours do I have to work?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¿Mitzin noyolia oquichtin tlen in tlaxcala?",
+        textoIngles: "What's my entry hour?",
     },
 ];
 

@@ -1,35 +1,25 @@
-import Card from "./Cards/Card";
+import Card from "../../components/Cards/Card";
 
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¿Yei tlahtoa?",
+        textoIngles: "Hi, how are you?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "In Omeo …",
+        textoIngles: "My name is …",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¿Inic tlen tlen huehuetlatolli?",
+        textoIngles: "What's your name?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "¡Tlazohcamati, tlakati, tlamantli!",
+        textoIngles: "Please, thanks, you're welcome",
     },
 ];
 

@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import ContentA1 from "./ContentA1";
+import ContentA4 from "./ContentA4";
 import Sidebar from "../../components/Sidebar";
 
 import Image from "next/image";
@@ -14,9 +14,9 @@ export default function Home() {
       </div>
       <div className="flex mt-20">
         <div>
-          <Sidebar />
+          <Sidebar/>
         </div>
-        <ContentA1 />
+        <ContentA4/>
       </div>
     </main>
   );

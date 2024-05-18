@@ -1,35 +1,25 @@
-import Card from "./Cards/Card";
+import Card from "../../components/Cards/Card";
 
 const elementos1 = [
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "Ninemi tontepa",
+        textoIngles: "Im sick",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "tlen tech catah caualli?",
+        textoIngles: "How much does the medicine costs?",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "huelih auakitekiya tlanextilol",
+        textoIngles: "Call an ambulance",
     },
     {
         imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
-    },
-    {
-        imageUrl: "/images/placeholder.jpg",
-        textoDialecto: "Niyolpaki ipampa nimitsixmati",
-        textoIngles: "elementos 1",
+        textoDialecto: "Tlalpanawak, huilapanawak, miquizpanawak, huetsipanawak, tonaltsiawak, tonalmeh, tepeilhuitl",
+        textoIngles: "monday, tuesday, wednesday, thursday, friday, saturday, sunday",
     },
 ];
 

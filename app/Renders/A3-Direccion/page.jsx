@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import ContentA1 from "./ContentA1";
+import ContentA3 from "./ContentA3";
 import Sidebar from "../../components/Sidebar";
 
 import Image from "next/image";
@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <Sidebar />
         </div>
-        <ContentA1 />
+        <ContentA3 />
       </div>
     </main>
   );
