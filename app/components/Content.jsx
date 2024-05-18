@@ -1,9 +1,13 @@
+"use client";
+
 import Card from "./Cards/Card";
 import cuadro from "../assets/cuadro1.jpg";
 import cuadro1 from "../assets/cuadro2.jpg";
 import cuadro2 from "../assets/cuadro3.jpg";
 import cuadro3 from "../assets/cuadro4.jpg";
 import logo from "../assets/logo.jpg";
+import Translate from "./Trans/Translate";
+
 
 const elementos1 = [
     {
@@ -25,10 +29,15 @@ const elementos1 = [
         imageUrl:cuadro,
         textoDialecto: "",
         textoIngles: "",
+
+
     },
 ];
 
 const Content = () => {
+    const handleButton=()=>{
+        console.log("click")
+    }
     return (
         <div className="bg-color-7 rounded-lg p-4">
             <div className="container mx-auto p-4">
@@ -39,6 +48,7 @@ const Content = () => {
                     ))}
                 </div>
             </div>
+                    <Translate onClick={handleButton}/>
 
         </div>
     );
