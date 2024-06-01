@@ -21,7 +21,7 @@ const ImageUploader = () => {
     const reader = new FileReader();
     reader.onloadend = async () => {
       try {
-        const response = await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAFLGhfR8Wu7c3Nv7uBfTTcJbbe1HBwhRs', {
+        const response = await fetch('https://vision.googleapis.com/v1/images:annotate?key=', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
